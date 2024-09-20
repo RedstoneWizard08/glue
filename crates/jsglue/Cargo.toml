@@ -13,7 +13,7 @@ readme.workspace = true
 anyhow.workspace = true
 async-trait.workspace = true
 axum.workspace = true
-axumite = { version = "0.1.1", workspace = true }
+axumite.workspace = true
 cfg-if.workspace = true
 ctrlc.workspace = true
 derive_builder.workspace = true

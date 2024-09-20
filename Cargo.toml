@@ -37,4 +37,4 @@ tracing = "0.1.40"
 tungstenite = { version = "0.24.0", features = ["rustls"] }
 url = "2.5.2"
 
-axumite = { path = "./crates/axumite" }
+axumite = { version = "0", path = "./crates/axumite" }
