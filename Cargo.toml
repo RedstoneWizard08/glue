@@ -8,14 +8,15 @@ license = "MIT"
 repository = "https://github.com/RedstoneWizard08/Wormhole"
 homepage = "https://github.com/RedstoneWizard08/Wormhole"
 authors = ["RedstoneWizard08"]
+readme = "README.md"
 
 [workspace.dependencies]
 axum-core = "0.4.3"
 futures-util = "0.3.30"
 http = "1.1.0"
-hyper-util = "0.1.8"
+hyper-util = { version = "0.1.8", features = ["tokio"] }
 hyper = { version = "1.4.1", features = ["client"] }
-tokio-tungstenite = "0.24.0"
+tokio-tungstenite = { version = "0.24.0", features = ["rustls"] }
 async-trait = "0.1.82"
 sha-1 = "0.10.1"
 bytes = "1.7.2"
@@ -33,7 +34,7 @@ mime_guess = "2.0.5"
 once_cell = "1.19.0"
 regex = "1.10.6"
 tracing = "0.1.40"
-tungstenite = "0.24.0"
+tungstenite = { version = "0.24.0", features = ["rustls"] }
 url = "2.5.2"
 
 axumite = { path = "./crates/axumite" }
