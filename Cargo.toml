@@ -20,7 +20,7 @@ async-trait = "0.1.82"
 sha-1 = "0.10.1"
 bytes = "1.7.2"
 base64 = "0.22.1"
-tokio = { version = "1.40.0", features = ["process"] }
+tokio = { version = "1.40.0", features = ["process", "rt"] }
 anyhow = "1.0.89"
 axum = { version = "0.7.5", features = ["macros"] }
 cfg-if = "1.0.0"
